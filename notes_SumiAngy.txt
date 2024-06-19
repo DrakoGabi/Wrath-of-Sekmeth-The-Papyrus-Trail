@@ -1,0 +1,38 @@
+WARC-EFFECT 19
+
+cinématique de démarrage : se déclenche à la création d'une nouvelle partie
+corps :
+Sekhmet scratch up tout les papyrus d'une bibliothèque et s'endort sur son oeuvre
+Thot énervé, scelle ses pouvoirs pour la punir et s'enfuit vers le nord
+
+//background
+*scritch scratch*
+*scritch scratch*
+//background, Sekhmet colored
+"ungrateful mortals... I'll teach them why they should not cast me away !"
+"all this because this damn Thot is the god of wisdom ? so what ?!"
+"I am power !"
+//background, Sekhmet grey, Thot colored
+"Sekhmet, what are you doing ?"
+"..."
+//background, Sekhmet colored, Thot grey
+*scritch scratch*
+"getting rid of your influence."
+//background, Sekhmet grey, Thot colored
+"... that's it."
+"let's see how you do without that power you're so proud of !"
+
+élément : sfText *, 3 sprite_t(bg + press + textbox), 2 spritesheet_t, sfMusic *
+
+fonction à ajouter :
+afficheur de text progressif
+
+cutscene_s {
+    sfText *aff;
+    sprite_t bg;
+    sprite_t box;
+    spritesheet_t p;
+    spritesheet_t t;
+    sfMusic *mus;
+    bool over;
+} cutscene_t;

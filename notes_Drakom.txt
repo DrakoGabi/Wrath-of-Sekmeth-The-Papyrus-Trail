@@ -1,0 +1,37 @@
+pour faire un menu nous avons besoin
+
+d'un fond d'écran qui fait la taille de l'écran
+    d'un bouton start, à 3 état
+        le bouton start lance la boucle de jeu principale
+    un bouton seeting à 3 état
+        un button qui va permettre de regler le volume du jeu
+
+
+il faut pouvoir  resize le window
+
+
+pour faireu un bouton
+faire un sfFloatRect intersect ou contain avec la souris et le rectangle du bouton
+si start est click
+visible des sprites = false
+carré de collision : loin ou ignorer si le visible est false
+
+
+
+Overworld
+map_t besoin
+un spritesheet besoin
+
+
+ // my_strcpy(b->pause.def, "\tlvl : ");
+    // my_strcat(my_strnb_cpy(b->player.stats.lvl, b->pause.def), "\nhp : ");
+    // my_strcat(my_strnb_cpy(b->player.stats.hp, b->pause.def), "\nattack : ");
+    // my_strcat(my_strnb_cpy(b->player.stats.atk, b->pause.def), "\nclock : ");
+    // my_strnb_cpy(b->player.stats.cl, b->pause.def);
+
+
+    collision inventaire
+faire 3 carré de collision coloré
+un vert quand c'est equipé, rouge quand ç'a ne l'est pas
+pour les bandages , un bouton qui ne se maintient pas
+les bandages soigne 3 pv;
